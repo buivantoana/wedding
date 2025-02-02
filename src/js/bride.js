@@ -13,7 +13,7 @@ export const bride = () => {
     } animation">
                    <figcaption>${data.name}</figcaption>
               </figure>
-              <p>${data.child} <br>dari <br> Bapak ${data.father} & Ibu ${
+              <p>${data.child} <br> Ông ${data.father} & Bà ${
       data.mother
     }</p>
               <span style="display: ${

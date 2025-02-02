@@ -10,7 +10,7 @@ export const home = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                ${brideLName} & ${bridePName}
             </figcaption>`;
     };
 
@@ -18,22 +18,22 @@ export const home = () => {
         const {year, month, date, day} = time.marriage;
         return `
         <time datetime="${year}-${String(monthNameToNumber(month)).padStart(2, '0')}-${String(date).padStart(2, '0')}">
-            ${day}, ${date} ${month} ${year}
+           Chủ nhật,16-02-2025
         </time>`;
     };
 
     const generateCountdownMarkup = (days, hours, minutes, seconds) => {
         return `<div>
-                    <p>${days}<br><span>Hari</span></p>
+                    <p>${days}<br><span>Ngày</span></p>
                 </div>
                 <div>
-                    <p>${hours}<br><span>Jam</span></p>
+                    <p>${hours}<br><span>Giờ</span></p>
                 </div>
                 <div>
-                    <p>${minutes}<br><span>Menit</span></p>
+                    <p>${minutes}<br><span>Phút</span></p>
                 </div>
                 <div>
-                    <p>${seconds}<br><span>Detik</span></p>
+                    <p>${seconds}<br><span>Giây</span></p>
                 </div>`;
     };
 
@@ -56,7 +56,7 @@ export const home = () => {
 
     const startCountdown = (homeTime, timeData) => {
         const {year, month, date} = timeData.marriage;
-        const endTime = new Date(`${String(year)}-${String(monthNameToNumber(month)).padStart(2, '0')}-${String(date).padStart(2, '0')}T00:00:00`);
+        const endTime = new Date(`2025-02-16T00:00:00`);
 
         updateCountdown(endTime, homeTime);
         setInterval(() => updateCountdown(endTime, homeTime), 1000);

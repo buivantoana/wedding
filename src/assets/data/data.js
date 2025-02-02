@@ -2,29 +2,29 @@ export const data = {
   bride: {
     L: {
       id: 1,
-      name: "Nguyễn Đức Phú",
-      child: "Putra ke lorem",
-      father: "Lorem",
-      mother: "Ipsum",
-      image: "./src/assets/images/NTQ06734.jpg",
+      name: "Đức Phú",
+      child: "Nguyễn Đức Phú",
+      father: "Nguyễn Tuấn Hải",
+      mother: "Phạm Thị Nguyệt",
+      image: "./src/assets/images/nam.jpg",
     },
     P: {
       id: 2,
-      name: "Ipsum Lorem",
-      child: "Putri ke lorem",
-      father: "Lorem",
-      mother: "Ipsum",
-      image: "./src/assets/images/NTQ06405.jpg",
+      name: "Thanh Huế",
+      child: "Nguyễn Thị Huế",
+      father: "Nguyễn Văn Sỉu",
+      mother: "Bùi Thị Dừa",
+      image: "./src/assets/images/nu.jpg",
     },
 
-    couple: "./src/assets/images/NTQ06719.jpg",
+    couple: "./src/assets/images/couple.jpg",
   },
 
   time: {
     marriage: {
-      year: "2030",
+      year: "2025",
       month: "November",
-      date: "14",
+      date: "16",
       day: "Kamis",
       hours: {
         start: "08.00",

@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .time {
     width: 100%;
-    min-height: 100vh;
+    min-height: 79vh;
     text-align: center;
     padding: 10rem 8rem;
     position: relative;
 }
 
 .time h2 {
-    font-family: var(--sacramento);
+   font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     font-size: var(--fontSize-heading-base);
     font-weight: 400;
 }

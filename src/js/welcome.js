@@ -15,7 +15,7 @@ export const welcome = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                ${brideLName.split(' ')[0]} & ${bridePName.split(' ')[0]}
+                ${brideLName} & ${bridePName}
             </figcaption>`;
     };
 
@@ -23,12 +23,12 @@ export const welcome = () => {
         const name = document.querySelector('#name');
         const params = getQueryParameter('to');
 
-        if (params) {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
-            name.value = params;
-        } else {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
-        }
+        // if (params) {
+        //     weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
+        //     name.value = params;
+        // } else {
+        //     weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
+        // }
     }
 
     const initialAudio = () => {

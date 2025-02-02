@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .bride {
     width: 100%;
     min-height: 100vh;
@@ -14,8 +15,10 @@
 
 .bride h3 {
     font-size: var(--fontSize-heading-base);
-    font-family: var(--sacramento);
-    font-weight: 400;
+   font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     margin: 1rem 0;
 }
 
@@ -49,7 +52,10 @@
 .bride .bride_couple li figure figcaption {
     font-size: var(--fontSize-heading-base);
     margin: 1rem 0;
-    font-family: var(--sacramento);
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .bride .bride_couple span {
